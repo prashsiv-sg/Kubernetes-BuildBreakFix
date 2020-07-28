@@ -1,10 +1,10 @@
 # Kubernetes-BuildBreakFix
-## Let's start with Docker
+## 1. Let's start with Docker
 ### Install Docker
 `https://docs.docker.com/get-docker/`
 
 ### Docker Hello-world
-```
+```javascript
 PS C:\Users\user1\Lab> docker run hello-world
 Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
@@ -33,3 +33,23 @@ Share images, automate workflows, and more with a free Docker ID:
 For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
+### 2. DockerHub 
+ Docker Hub
+ `https://hub.docker.com/r/dockercloud/hello-world`
+
+### 3. Build and run from doker file
+Clone
+`git clone https://github.com/docker-archive/dockercloud-hello-world.git`
+`cd .\dockercloud-hello-world\`
+Build
+`docker build --tag example:1.0 .`
+Run
+`docker run -p 80:80 example:1.0`
+
+List, stop and remove existing Containers and Images
+`docker ps`
+`docker images`
+`docker image rm <imageid>`
+`docker container ls -a`
+`docker container rm <containerid>`
+
