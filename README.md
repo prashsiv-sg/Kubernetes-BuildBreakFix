@@ -39,7 +39,7 @@ For more examples and ideas, visit:
 
 ### 3. Build and run from doker file
 Clone
-`git clone https://github.com/docker-archive/dockercloud-hello-world.git`
+`git clone https://github.com/docker-archive/dockercloud-hello-world.git`<br>
 `cd .\dockercloud-hello-world\`
 Build
 `docker build --tag example:1.0 .`
