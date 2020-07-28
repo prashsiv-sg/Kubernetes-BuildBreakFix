@@ -4,9 +4,8 @@
 `https://docs.docker.com/get-docker/`
 
 ### Docker Hello-world
-```javascript
-PS C:\Users\user1\Lab> docker run hello-world
-Unable to find image 'hello-world:latest' locally
+`PS C:\Users\user1\Lab> docker run hello-world`
+```Unable to find image 'hello-world:latest' locally
 latest: Pulling from library/hello-world
 0e03bdcc26d7: Pull complete
 Digest: sha256:49a1c8800c94df04e9658809b006fd8a686cab8028d33cfba2cc049724254202
