@@ -33,22 +33,26 @@ For more examples and ideas, visit:
  https://docs.docker.com/get-started/
 ```
 ### 2. DockerHub 
- Docker Hub
+ Docker Hub  
  `https://hub.docker.com/r/dockercloud/hello-world`
 
 ### 3. Build and run from doker file
-Clone
+Clone  
 `git clone https://github.com/docker-archive/dockercloud-hello-world.git`<br>
-`cd .\dockercloud-hello-world\`
-Build
-`docker build --tag example:1.0 .`
-Run
-`docker run -p 80:80 example:1.0`
+`cd .\dockercloud-hello-world\`  
 
-List, stop and remove existing Containers and Images
-`docker ps`
-`docker images`
-`docker image rm <imageid>`
-`docker container ls -a`
-`docker container rm <containerid>`
+
+Build  
+`docker build --tag example:1.0 .`  
+
+
+Run  
+`docker run -p 80:80 example:1.0`  
+
+### 4. List, stop and remove existing Containers and Images
+`docker ps`  
+`docker images`  
+`docker image rm <imageid>`  
+`docker container ls -a`  
+`docker container rm <containerid>`  
 
