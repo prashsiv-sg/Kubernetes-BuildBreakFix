@@ -56,4 +56,11 @@ Run
 `docker image rm <imageid>`  
 `docker container ls -a`  
 `docker container rm <containerid>`  
+## Kubernetes
+Kubernets Architecture  
+![](https://www.guru99.com/images/1/061419_0430_KubernetesT1.png)
+
+### 5. Configure Kubernetes Cluster
+1. Start up 3 VMs 1 Master node and 2 worker nodes)
+2. 
 
