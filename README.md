@@ -1,7 +1,7 @@
 # Kubernetes-BuildBreakFix
-## 1. Let's start with Docker
+## Let's start with Docker
 ![](https://docs.docker.com/engine/images/architecture.svg)
-### Install Docker
+### 1. Install Docker
 `https://docs.docker.com/get-docker/`
 
 ### Docker Hello-world
@@ -37,7 +37,7 @@ For more examples and ideas, visit:
  Docker Hub  
  `https://hub.docker.com/r/dockercloud/hello-world`
 
-### 3. Build and run from doker file
+### 3. Build and run from docker file
 Clone  
 `git clone https://github.com/docker-archive/dockercloud-hello-world.git`<br>
 `cd .\dockercloud-hello-world\`  
