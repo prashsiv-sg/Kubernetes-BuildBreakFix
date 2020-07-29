@@ -1,5 +1,6 @@
 # Kubernetes-BuildBreakFix
 ## 1. Let's start with Docker
+![](https://docs.docker.com/engine/images/architecture.svg)
 ### Install Docker
 `https://docs.docker.com/get-docker/`
 
