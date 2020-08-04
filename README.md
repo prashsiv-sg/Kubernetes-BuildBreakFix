@@ -64,5 +64,7 @@ Kubernets Architecture
 1. Start up 3 VMs 1 Master node and 2 worker nodes)
 2. Install Docker, kubectl, kubelet, kubeadm.     
 <img src='/images/KubernetesArchitecture_1.png'  width=350/>
+3. 
+
 
 `kubectl exec --stdin --tty shell-demo -- /bin/bash`
