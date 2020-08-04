@@ -1,6 +1,6 @@
 # Kubernetes-BuildBreakFix
 ## Let's start with Docker
-![](https://docs.docker.com/engine/images/architecture.svg)
+![](https://docs.docker.com/engine/images/architecture.svg | width=50)
 ### 1. Install Docker
 `https://docs.docker.com/get-docker/`
 
@@ -62,6 +62,7 @@ Kubernets Architecture
 
 ### 5. Configure Kubernetes Cluster
 1. Start up 3 VMs 1 Master node and 2 worker nodes)
-2. Install Docker, kubectl, kubelet, kubeadm, 
+2. Install Docker, kubectl, kubelet, kubeadm.     
+<img src='/images/KubernetesArchitecture_1.png'  width=350/>
 
-kubectl exec --stdin --tty shell-demo -- /bin/bash
+`kubectl exec --stdin --tty shell-demo -- /bin/bash`
