@@ -62,5 +62,5 @@ Kubernets Architecture
 
 ### 5. Configure Kubernetes Cluster
 1. Start up 3 VMs 1 Master node and 2 worker nodes)
-2. 
+2. Install Docker, kubectl, kubelet, kubeadm, 
 
